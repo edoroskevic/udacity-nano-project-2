@@ -1,0 +1,111 @@
+.col-lg-4, .col-md-6, .col-sm-4{
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.title-header {
+  margin: 0;
+  padding-top: .8em;
+  padding-bottom: .8em;
+}
+
+.card{
+  height: 600px;
+  max-height: 550px;
+}
+.card-text {
+  text-align: justify;
+}
+
+.card-img-top{
+  max-width: 90%;
+  max-height: 90%;
+  margin: 0 auto;
+}
+
+.nav-item {
+  color: #ddd;
+  font-size: 1.4em;
+  text-transform: uppercase;
+}
+
+a.nav-link:hover {
+  color: #ddd;
+  text-decoration: underline;
+}
+
+.navbar.scrolled {
+    transition: background-color 300ms linear;
+}
+
+.navbar-collapse, .card-title, .title-header {
+  text-align: center;
+}
+
+/*
+  ID-level CSS Modification;
+*/
+#cover{
+  min-width: 100%;
+  min-height: 500px;
+  background: url("../img/background.jpg") no-repeat center center fixed;
+
+  background-size: cover;
+}
+
+/*body{
+  margin: 0 20px;
+}*/
+
+body{
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+a {
+  color: #3d3d3d;
+}
+
+/*
+  Tag-level CSS Modification;
+*/
+a:hover{
+  color: #000;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 180%;
+}
+
+h3 {
+  font-size: 140%;
+}
+
+h1, h2, h3, a {
+  text-transform: capitalize;
+}
+
+h1, h2, h3, p {
+  color: #3d3d3d;
+}
+
+nav > img {
+  margin-left: 2em;
+}
+
+nav > button {
+  margin-left: 1em;
+}
+
+@media screen and (max-width: 1000px){
+  a.nav-link:hover {
+    color: #fff;
+  }
+  .navbar-toggler {
+    border: 2px solid rgb(255,255,255);
+  }
+  .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 0.7)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
+}
